@@ -1,0 +1,85 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 0%;
+    margin: 2%;
+    text-align: center;
+}
+h2 {
+    padding: 1%;
+    margin: 0%;
+    font-family: 'Black Han Sans', sans-serif;
+    color: rgb(236, 186, 165);
+    font-size: 32px;
+    text-shadow: 1px 1px black; /* 가로, 세로 거리 ,색상지점 */
+}
+
+p {
+    letter-spacing: 7px;
+}
+nav {
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+nav ul li {
+    list-style: none;
+     float: left; /*왼쪽부터 가로 정렬 */
+     width: 20%; /*li 항목이 모두 5개 이므로 5등분 사이즈 정의 */
+     height: 32px; /* float 해제를 위한 세로 사이즈 지정 */
+     line-height: 32px; /*텍스트 중앙 정렬  위 , 아래 */
+     text-align: center;
+    background:rgb(236, 186, 165);
+}
+
+nav ul li a {
+    display: block;
+}
+
+nav ul li a:hover {
+    background:rgb(207, 159, 138);
+    color: #fff;
+}
+
+#content1 {
+    font-size: 28px;
+    padding-top: 100px;
+    margin: 30px;
+    text-align: center;
+    justify-content: center;
+}
+
+#img1 {
+    text-align: center;
+    width: 800;
+    margin: 10px;
+    padding: 10px;
+    border: 5px solid #dddd;
+}
+
+#img2 {
+    text-align: center;
+    width: 800;
+    margin: 10px;
+}
+
+#img3 {
+    border: 5px solid #dddd;
+    width: 1000px;
+    margin: 0 auto;
+    background-color: rgb(253, 253, 253);
+    overflow: hidden;
+    display: flex;
+    
+}
+
+#img3 p {
+    font-size: 28px;
+}
